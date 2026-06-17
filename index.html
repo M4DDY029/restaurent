@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papa Päncho da Dhaba — Bandra West, Mumbai</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="brand-block">
+        <span class="brand-logo">Papa Päncho</span>
+        <span class="brand-tag">da Dhaba</span>
+      </div>
+      <nav class="primary-nav" id="mainNav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#visit">Visit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Bandra West · Mumbai</p>
+            <h1 id="heroTitle">Papa <span>Päncho</span> da Dhaba</h1>
+            <p class="hero-text">A modern dhaba experience with rustic Punjabi fire, creamy curries and breads baked fresh from the tandoor.</p>
+            <p class="hero-subtitle" id="heroSubtitle"></p>
+            <div class="hero-actions">
+              <a href="https://www.google.com/maps/reserve/v/dine/c/JqxO9GqEtFs" target="_blank" rel="noreferrer" class="btn btn-primary">Reserve a Table</a>
+              <a href="#menu" class="btn btn-secondary">Explore the Menu</a>
+            </div>
+            <ul class="hero-highlights">
+              <li><strong>Open till 12 AM</strong> · Late-night dhaba favourites</li>
+              <li><strong>Outdoor seating</strong> · Open-air Bandra vibes</li>
+              <li><strong>Delivery ready</strong> · Fresh and fast from our kitchen</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="hero-panel-glow"></div>
+            <div class="hero-card">
+              <span class="hero-card-label">Fresh from the chulha</span>
+              <h2 class="hero-card-title">Shuddh Punjabi Khana</h2>
+              <p class="hero-card-copy">Handmade breads, bold masalas and slow-cooked dhaba classics served with warm hospitality.</p>
+              <div class="hero-card-stats">
+                <div>
+                  <span class="stat-number" data-count="4.2" data-dec="1">0</span>
+                  <small>Google Rating</small>
+                </div>
+                <div>
+                  <span class="stat-number" data-count="2731">0</span>
+                  <small>Reviews</small>
+                </div>
+              </div>
+            </div>
+            <div class="hero-visual">
+              <div class="steam-animation">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div id="particles"></div>
+              <div class="hero-ring"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about-section" aria-labelledby="aboutTitle">
+        <div class="section-header">
+          <p class="section-label">our story</p>
+          <h2 id="aboutTitle">A dhaba built on flame, spice and soul</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal-left">
+            <p>Papa Päncho da Dhaba brings the warmth of a Punjabi roadside eatery to Bandra. Expect hearty curries, charred kebabs and breads that are soft, buttery and fragrant.</p>
+            <p>Every dish is made to share — from slow-simmered dal makhani to tandoor-fresh paneer tikka and thick, creamy lassi.</p>
+            <div class="feature-list">
+              <div class="feature-item">Live tandoor, open kitchen energy</div>
+              <div class="feature-item">Relaxed indoor and outdoor seating</div>
+              <div class="feature-item">Booking, takeaway and delivery</div>
+            </div>
+          </div>
+          <div class="about-card reveal-right">
+            <span class="about-card-tag">Location</span>
+            <strong class="about-card-title">St. John St · Bandra West</strong>
+            <ul class="about-details">
+              <li><span>Lunch</span><strong>12 PM – 3:30 PM</strong></li>
+              <li><span>Dinner</span><strong>6:30 PM – 12 AM</strong></li>
+              <li><span>Phone</span><strong><a href="tel:07304164088">073041 64088</a></strong></li>
+              <li><span>Delivery</span><strong>Available online</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="section menu-section" aria-labelledby="menuTitle">
+        <div class="section-header">
+          <p class="section-label">khane ka menu</p>
+          <h2 id="menuTitle">Fresh flavours for every mood</h2>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button id="menu-starters-tab" type="button" class="menu-tab active" role="tab" aria-selected="true" aria-controls="menu-starters" data-menu="starters">Starters</button>
+          <button id="menu-mains-tab" type="button" class="menu-tab" role="tab" aria-selected="false" aria-controls="menu-mains" data-menu="mains">Mains</button>
+          <button id="menu-breads-tab" type="button" class="menu-tab" role="tab" aria-selected="false" aria-controls="menu-breads" data-menu="breads">Breads & Rice</button>
+          <button id="menu-drinks-tab" type="button" class="menu-tab" role="tab" aria-selected="false" aria-controls="menu-drinks" data-menu="drinks">Lassi & Drinks</button>
+        </div>
+        <div class="menu-panels">
+          <div id="menu-starters" class="menu-panel active" role="tabpanel" aria-labelledby="menu-starters-tab">
+            <div class="menu-grid">
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Paneer Tikka</span><span>₹320</span></div>
+                <p>Smoky cottage cheese marinated in tandoori masala, char-grilled in the clay oven.</p>
+                <span class="menu-badge badge-popular">House favourite</span>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Amritsari Kulcha Platter</span><span>₹260</span></div>
+                <p>Stuffed bread with spiced potato filling, served with chole and mint chutney.</p>
+                <span class="menu-badge badge-popular">Must try</span>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Makki Tikki</span><span>₹190</span></div>
+                <p>Cornmeal patties with pickled onions and imli chutney.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Lahori Murgh Kebab</span><span>₹380</span></div>
+                <p>Chicken mince kebabs with green chilli and coriander, coal-finished.</p>
+                <span class="menu-badge badge-spicy">Spicy</span>
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-mains" class="menu-panel" role="tabpanel" aria-labelledby="menu-mains-tab" aria-hidden="true">
+            <div class="menu-grid">
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Dal Makhani</span><span>₹280</span></div>
+                <p>Black lentils simmered overnight in butter and cream.</p>
+                <span class="menu-badge badge-popular">Signature</span>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Sarson da Saag</span><span>₹320</span></div>
+                <p>Mustard greens slow-cooked with ginger, garlic and white butter.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Butter Chicken</span><span>₹420</span></div>
+                <p>Tandoor-cooked chicken in velvety tomato and cream gravy.</p>
+                <span class="menu-badge badge-popular">Bestseller</span>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Mutton Rogan Josh</span><span>₹560</span></div>
+                <p>Bone-in mutton in a bold Kashmiri spice gravy.</p>
+                <span class="menu-badge badge-spicy">Bold</span>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Shahi Paneer</span><span>₹340</span></div>
+                <p>Cottage cheese in a rich cashew and saffron gravy.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Kadai Chole</span><span>₹240</span></div>
+                <p>Punjabi chickpeas in a tangy tomato-onion gravy.</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-breads" class="menu-panel" role="tabpanel" aria-labelledby="menu-breads-tab" aria-hidden="true">
+            <div class="menu-grid">
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Tandoori Roti</span><span>₹40</span></div>
+                <p>Whole wheat, baked in the clay tandoor.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Butter Naan</span><span>₹60</span></div>
+                <p>Leavened white flour bread, generously buttered.</p>
+                <span class="menu-badge badge-popular">Classic</span>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Makki di Roti</span><span>₹70</span></div>
+                <p>Traditional cornmeal flatbread, best with saag.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Jeera Rice</span><span>₹160</span></div>
+                <p>Basmati rice tempered with cumin and ghee.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Patiala Pulao</span><span>₹240</span></div>
+                <p>Fragrant rice cooked with whole spices and caramelised onions.</p>
+              </article>
+            </div>
+          </div>
+
+          <div id="menu-drinks" class="menu-panel" role="tabpanel" aria-labelledby="menu-drinks-tab" aria-hidden="true">
+            <div class="menu-grid">
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Sweet Lassi</span><span>₹120</span></div>
+                <p>Thick churned yoghurt with sugar and rose petal garnish.</p>
+                <span class="menu-badge badge-popular">Iconic</span>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Salted Lassi</span><span>₹100</span></div>
+                <p>Cooling savoury yoghurt drink with cumin and black salt.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Mango Lassi</span><span>₹140</span></div>
+                <p>Alphonso mango blended into thick dahi.</p>
+              </article>
+              <article class="menu-card">
+                <div class="menu-card-top"><span>Masala Chaas</span><span>₹80</span></div>
+                <p>Spiced buttermilk with coriander and green chilli.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section reviews-section" aria-labelledby="reviewsTitle">
+        <div class="section-header">
+          <p class="section-label">what people say</p>
+          <h2 id="reviewsTitle">4.2 stars · 2,731 happy diners</h2>
+        </div>
+        <div class="reviews-grid">
+          <article class="review-card reveal reveal-delay-1">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">The dal makhani here is genuinely the best I've had in Mumbai. Rich, slow-cooked, and the butter is not shy.</p>
+            <div class="review-author">Rohan M. · Google Review</div>
+          </article>
+          <article class="review-card reveal reveal-delay-2">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">Felt like a proper Punjab dhaba in the middle of Bandra. Calm, cosy and the food hits you right in the soul.</p>
+            <div class="review-author">Simran K. · Google Review</div>
+          </article>
+          <article class="review-card reveal reveal-delay-3">
+            <div class="review-stars">★★★★☆</div>
+            <p class="review-quote">Outdoor seating, cool breeze, and amritsari kulcha with chole. This is exactly what weekends should be.</p>
+            <div class="review-author">Priya D. · Google Review</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="visit" class="section visit-section" aria-labelledby="visitTitle">
+        <div class="visit-grid">
+          <div class="visit-copy reveal-left">
+            <p class="section-label">find us</p>
+            <h2 id="visitTitle">Come hungry, leave happy</h2>
+            <div class="visit-card">
+              <div class="visit-icon">📍</div>
+              <div>
+                <span class="visit-label">Address</span>
+                <p>Shop No. 12, St John St, opp. Gold's Gym<br>Gasper Enclave, Pali Naka West<br>Bandra West, Mumbai 400050</p>
+              </div>
+            </div>
+            <div class="visit-card">
+              <div class="visit-icon">📞</div>
+              <div>
+                <span class="visit-label">Phone</span>
+                <p><a href="tel:07304164088">073041 64088</a></p>
+              </div>
+            </div>
+            <div class="visit-card">
+              <div class="visit-icon">🕐</div>
+              <div>
+                <span class="visit-label">Hours</span>
+                <p>Mon–Fri: 12 PM – 3:30 PM & 6:30 PM – 12 AM<br>Sat–Sun: 12 PM – 12 AM</p>
+              </div>
+            </div>
+          </div>
+          <div class="visit-map reveal-right">
+            <div class="map-placeholder">
+              <div class="map-icon">🗺️</div>
+              <p>Opp. Gold's Gym, Bandra West</p>
+              <a href="https://maps.google.com/?q=Papa+Pancho+da+Dhaba+Bandra+West+Mumbai" target="_blank" rel="noreferrer" class="btn btn-map">Open in Google Maps</a>
+            </div>
+            <div class="visit-actions">
+              <a href="https://www.google.com/maps/reserve/v/dine/c/JqxO9GqEtFs" target="_blank" rel="noreferrer" class="btn btn-primary">Reserve a Table</a>
+              <a href="tel:07304164088" class="btn btn-secondary">Call Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <p class="footer-brand">Papa Päncho da Dhaba</p>
+        <p class="footer-copy">St John St · Bandra West · Mumbai · Open till 12 AM</p>
+      </div>
+    </footer>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
